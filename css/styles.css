@@ -1,0 +1,87 @@
+body {
+    
+    background-color: #fafafa;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.name {
+
+}
+
+#main-nav{
+    
+    
+}
+
+.main-nav {
+    list-style: none;
+    
+}
+
+.main-nav  li {
+/*    display: inline-block;*/
+/*    width: 100%;*/
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1em;
+    
+}
+
+#main-nav > ul {
+    
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+
+#main-nav a {
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+#main-content {
+    
+    text-align: center;
+    
+}
+
+#portfolio img {
+    
+    width: 100%;
+}
+
+.col {
+    
+}
+
+.footer-col {
+    width:50%;
+}
+
+#footer-col-1 {
+    
+    float: left;
+}
+
+#footer-col-2 {
+ 
+    float: right;
+    
+}
+
+#footer-col-2 h3 {
+ 
+    float: right;
+    
+}
