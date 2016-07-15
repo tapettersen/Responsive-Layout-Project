@@ -9,6 +9,9 @@ body {
 
 a {
     text-decoration: none;
+    font-weight: bold;
+    color: #4a4a4a;
+    
 }
 
 #wrapper {
@@ -17,7 +20,8 @@ a {
 }
 
 .name {
-
+    
+    color: #4a4a4a;
 }
 
 #main-nav{
@@ -94,7 +98,14 @@ font-size: 1.3em;
 #profile-image img {
     
     
-    width: 80%;
+    width: 70%;
+}
+
+#profile-text p {
+    
+    padding-bottom: 2em;
+    padding-top: 2em;
+    color: #7f7f9a;
 }
 
 #portfolio img {
@@ -108,16 +119,33 @@ font-size: 1.3em;
     width: 90%;
     margin: 0 auto;
     font-size: 1.3em;
+    color: #4a4a4a;
 }
 
+#portfolio h2 {
+
+    color: #4a4a4a;
+}
 .col {
    
     padding-bottom: 2em;
 }
 
+.portfolio-item h2 {
+    
+    padding-top: 1em;
+}
+
+.portfolio-item p {
+    
+    padding-bottom: .3em;
+}
+
 #main-footer h2 {
     
     padding-top: 4em;
+    color: #4a4a4a;
+    padding-bottom: 1.5em;
 }
 
 #main-footer p {
@@ -131,10 +159,19 @@ font-size: 1.3em;
     margin-right: auto;
 }
 
+#main-footer p {
+    
+    color: #7f7f9a;
+}
 
+#main-footer hr { 
+
+    margin-top: 5em;
+    width: 90%;
+}
 
 .footer-col {
-    width:50%;
+    width:45%;
 }
 
 #footer-col-1 {
@@ -142,11 +179,19 @@ font-size: 1.3em;
     float: left;
 }
 
+#footer-col-1 h3 { 
+
+    float: left;
+    margin-left: 10%;
+}
+
 #footer-col-2 {
  
     float: right;
-    
+    margin-right: 5%;
+        
 }
+
 
 #footer-col-2 h3 {
  
