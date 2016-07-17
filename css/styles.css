@@ -108,13 +108,13 @@ a {
     padding-bottom: 1em;
 }
 
-#main-footer h2 {
+.main-footer h2 {
     padding-top: 4em;
     color: #4a4a4a;
     padding-bottom: 1.5em;
 }
 
-#main-footer p {
+.main-footer p {
     font-size: 1.3em;
     width: 90%;
     text-align: center;
@@ -123,11 +123,11 @@ a {
     margin-right: auto;
 }
 
-#main-footer p {
+.main-footer p {
     color: #7f7f9a;
 }
 
-#main-footer hr {
+.main-footer hr {
     margin-top: 5em;
     width: 90%;
 }
