@@ -155,3 +155,60 @@ a {
 #footer-col-2 h3 {
     float: right;
 }
+
+@media (min-width: 768px) {
+    
+    .name {
+        
+        padding-bottom: .7em;
+    }
+    
+    
+    .main-nav li {
+        display: inline;
+        padding-right: 2em;
+        background-color: #fafafa;
+        font-size: 1.5em;        
+
+    }   
+    
+    #main-content {
+        
+        clear: both;
+    }
+    
+    .content-col {
+        
+        width: 50%;
+    }
+    
+    #profile-image {
+        
+        float: right;
+    }
+    
+    #profile-text p,
+    #profile-image img {
+        
+        padding-top: 0;
+    }
+    
+    #page-top {
+        
+        display: block;
+        padding-bottom: 70px;
+        
+    }
+    
+        
+    .col {
+        
+        width: 50%;
+        float: left;
+    }
+    
+    #main-footer {
+        
+        display: block;
+    }
+}
