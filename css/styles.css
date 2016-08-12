@@ -1,8 +1,10 @@
 body {
     
-    background-color: #fafafa;
+    
     font-family: 'Lato', sans-serif;
     text-align: center;
+    background-color: #fafafa;
+    
 }
 
 a {
@@ -10,7 +12,7 @@ a {
 }
 
 #wrapper {
-    max-width: 90%;
+/*    max-width: 90%;*/
     margin: 0 auto;
 }
 
@@ -23,18 +25,30 @@ a {
     
 }
 
+#page-top {
+    
+    margin: 0 auto;
+    
+    
+}
+
 .main-nav {
     list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 90%;
     
 }
 
 .main-nav  li {
-/*    display: inline-block;*/
+    display: block;
 /*    width: 100%;*/
     background-color: white;
     padding-top: 1em;
     padding-bottom: 1em;
-    margin-top: 1em;
+    margin-top: .5em;
+    margin-left: 0;
+    width: 100%
     
 }
 
@@ -43,6 +57,8 @@ a {
     margin-left: 0;
     padding-left: 0;
     
+    
+    
 }
 
 #main-nav a {
@@ -50,20 +66,72 @@ a {
     text-decoration: none;
 }
 
+#main-header {
+    
+    padding-bottom: 50px;
+}
+
+#portfolio {
+    
+    width: 100%;
+    background-color: white;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
 #main-content {
     
-    text-align: center;
+        
+}
+
+#main-content p { 
+
+font-size: 1.3em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#profile-image img {
     
+    
+    width: 80%;
 }
 
 #portfolio img {
     
-    width: 100%;
+    margin-top: 30px;
+    width: 90%;
+}
+
+#portfolio p {
+    
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.3em;
 }
 
 .col {
-    
+   
+    padding-bottom: 2em;
 }
+
+#main-footer h2 {
+    
+    padding-top: 4em;
+}
+
+#main-footer p {
+    
+  
+    font-size: 1.3em;
+    width: 90%;
+    text-align: center;
+/*    margin: 0 auto;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 .footer-col {
     width:50%;
